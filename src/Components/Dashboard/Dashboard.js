@@ -7,7 +7,7 @@ import ReleaseGallery from "./Releases/ReleaseGallery";
 
 function Dashboard() {
   return (
-    <div className="h-[100vh] pl-6 text-white">
+    <div className="h-[100vh] pl-6 text-white overflow-scroll">
       <div className="py-4">
         <div className="flex items-center">
           <div className="pr-4">
@@ -25,6 +25,7 @@ function Dashboard() {
         </div>
       </div>
       <div className="pt-8">
+        <ReleaseGallery />
         <ReleaseGallery />
       </div>
     </div>

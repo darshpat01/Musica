@@ -6,7 +6,7 @@ function ReleaseGallery() {
     <>
       <div>
         <p className="text-2xl pb-3">New Releases</p>
-        <div className="flex">
+        <div className="flex flex-row">
           <MusicCard />
           <MusicCard />
           <MusicCard />

@@ -4,7 +4,7 @@ import cardimg1 from "../../../Media/cardimg1.png";
 function MusicCard() {
   return (
     <>
-      <div className="flex flex-col pr-6">
+      <div className="flex-none flex-col pr-6">
         <div className="rounded-[25px]">
           <img
             src={cardimg1}

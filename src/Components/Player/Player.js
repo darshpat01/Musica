@@ -18,7 +18,7 @@ import { BsRepeat } from "react-icons/bs";
 
 function Player() {
   return (
-    <div className="w-full h-[6em] bg-opacity-50 drop-shadow-2xl backdrop-blur-sm text-white px-[8em] flex flex-row items-center justify-between">
+    <div className="w-full h-[6em] drop-shadow-2xl backdrop-blur-md text-white px-[8em] flex flex-row items-center justify-between">
       <div className="flex w-full items-center">
         <div className="rounded-[14px] overflow-hidden h-11 w-11">
           <img src={playerdp} alt="dp"></img>
@@ -33,20 +33,20 @@ function Player() {
         </div>
         <div className="flex-col ml-auto mr-auto">
           <div className="flex justify-center">
-            <div className="pr-4">
+            <div className="pr-5 hover:text-[#FACD66]">
               <FaRandom size={26} />
             </div>
-            <div className="pr-4">
+            <div className="pr-5 hover:text-[#FACD66]">
               <AiFillStepBackward size={26} />
             </div>
 
-            <div className="pr-4">
-              <AiFillPlayCircle size={26} />
+            <div className="pr-5 hover:text-[#FACD66]">
+              <AiFillPlayCircle size={28} />
             </div>
-            <div className="pr-4">
+            <div className="pr-5 hover:text-[#FACD66]">
               <AiFillStepForward size={26} />
             </div>
-            <div className="">
+            <div className=" hover:text-[#FACD66]">
               <BsRepeat size={26} />
             </div>
           </div>

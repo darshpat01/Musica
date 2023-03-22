@@ -6,8 +6,8 @@ import { Outlet } from "react-router-dom";
 function Root() {
   return (
     <>
-      <div className="h-[100vh] relative ">
-        <div className="flex bg-[#1D2123] z-200">
+      <div className="h-screen relative bg-[#1D2123]">
+        <div className="flex  z-200">
           <div>
             <Sidenav />
           </div>
